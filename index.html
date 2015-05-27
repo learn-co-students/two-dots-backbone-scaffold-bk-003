@@ -28,9 +28,11 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-md-offset-3 noselect" id="board">
-          <i class="fa fa-cog fa-spin fa-5x"></i>
-          <p>Making snow...</p>
+        <div class="col-md-6 col-md-offset-3 noselect" id="board" style="display: block;">
+          <div class="row board">
+            <i class="fa fa-cog fa-spin fa-5x"></i>
+            <p>Making snow...</p>
+          </div>
         </div>
       </div>
     </div>
@@ -40,6 +42,11 @@
   <script src="public/lib/underscore/underscore.min.js"></script>
   <script src="public/lib/backbone/backbone.min.js"></script>
   <script src="public/lib/bootstrap/bootstrap.min.js"></script>
-  <script src="public/javascripts/two-dots.js"></script>
-
+  
+  <!-- include your custom javascript files here, refer to below -->
+  <!-- where the example javascripts are loaded in the correct order -->
+  <script src="public/javascripts/models/example-model.js"></script>
+  <script src="public/javascripts/views/example-view.js"></script>
+  <script src="public/javascripts/app.js"></script>
+  
 </html>
