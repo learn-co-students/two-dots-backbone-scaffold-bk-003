@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Two Dots</title>
+    <link href="public/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="public/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="public/stylesheets/two-dots.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="public/images/favicon.ico">
+  </head>
+  
+  <body role="document">
+    <div class="container theme-showcase" role="main">
+      <div class="jumbotron">
+        <h1>Two Dots</h1>
+        <p>Backbone implementation of a simple version of Two Dots.</p>
+        <div class="row">
+          <div class="col-md-2">
+            <div class="btn btn-default">Score: <span id="score">0</span></div>
+          </div>
+          <div class="col-md-2">
+            <a class="btn btn-primary" href="index.html">Home</a>
+          </div>
+          <div class="col-md-2">
+            <a class="btn btn-info" href="https://youtu.be/vgG223cMmE4?t=1m3s">Video</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 noselect" id="board" style="display: block;">
+          <div class="row board">
+            
+            <div class="col-xs-2 col-sm-2 col-md-2">
+              <div class="row dot red">
+                <i class="fa fa-circle fa-2x"></i>
+              </div>
+              <div class="row dot yellow">
+                <i class="fa fa-circle fa-2x"></i>
+              </div>
+              <div class="row dot green">
+                <i class="fa fa-circle fa-2x"></i>
+              </div>
+              <div class="row dot blue">
+                <i class="fa fa-circle fa-2x"></i>
+              </div>
+              <div class="row dot purple">
+                <i class="fa fa-circle fa-2x"></i>
+              </div>
+            </div>
+
+            <div class="col-xs-2 col-sm-2 col-md-2">
+              <div class="row dot yellow">
+                <i class="fa fa-circle fa-2x"></i>
+              </div>
+              <div class="row dot green">
+                <i class="fa fa-circle fa-2x"></i>
+              </div>
+              <div class="row dot blue">
+                <i class="fa fa-circle fa-2x"></i>
+              </div>
+              <div class="row dot purple">
+                <i class="fa fa-circle fa-2x"></i>
+              </div>
+              <div class="row dot red">
+                <i class="fa fa-circle fa-2x"></i>
+              </div>
+            </div>
+
+            <div class="col-xs-2 col-sm-2 col-md-2">
+              <div class="row dot green">
+                <i class="fa fa-circle fa-2x"></i>
+              </div>
+              <div class="row dot blue">
+                <i class="fa fa-circle fa-2x"></i>
+              </div>
+              <div class="row dot purple">
+                <i class="fa fa-circle fa-2x"></i>
+              </div>
+              <div class="row dot red">
+                <i class="fa fa-circle fa-2x"></i>
+              </div>
+              <div class="row dot yellow">
+                <i class="fa fa-circle fa-2x"></i>
+              </div>
+            </div>
+
+            <div class="col-xs-2 col-sm-2 col-md-2">
+              <div class="row dot blue">
+                <i class="fa fa-circle fa-2x"></i>
+              </div>
+              <div class="row dot red active">
+                <i class="fa fa-circle fa-2x"></i>
+              </div>
+              <div class="row dot purple">
+                <i class="fa fa-circle fa-2x"></i>
+              </div>
+              <div class="row dot yellow">
+                <i class="fa fa-circle fa-2x"></i>
+              </div>
+              <div class="row dot green">
+                <i class="fa fa-circle fa-2x"></i>
+              </div>
+            </div>
+
+            <div class="col-xs-2 col-sm-2 col-md-2">
+              <div class="row dot purple">
+                <i class="fa fa-circle fa-2x"></i>
+              </div>
+              <div class="row dot red active">
+                <i class="fa fa-circle fa-2x"></i>
+              </div>
+              <div class="row dot yellow">
+                <i class="fa fa-circle fa-2x"></i>
+              </div>
+              <div class="row dot green">
+                <i class="fa fa-circle fa-2x"></i>
+              </div>
+              <div class="row dot blue">
+                <i class="fa fa-circle fa-2x"></i>
+              </div>
+            </div>
+
+            <div class="col-xs-2 col-sm-2 col-md-2">
+              <div class="row dot yellow">
+                <i class="fa fa-circle fa-2x"></i>
+              </div>
+              <div class="row dot green">
+                <i class="fa fa-circle fa-2x"></i>
+              </div>
+              <div class="row dot blue">
+                <i class="fa fa-circle fa-2x"></i>
+              </div>
+              <div class="row dot purple">
+                <i class="fa fa-circle fa-2x"></i>
+              </div>
+              <div class="row dot red">
+                <i class="fa fa-circle fa-2x"></i>
+              </div>
+            </div>
+                                    
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="public/lib/jquery/jquery.min.js"></script>
+  <script src="public/lib/underscore/underscore.min.js"></script>
+  <script src="public/lib/backbone/backbone.min.js"></script>
+  <script src="public/lib/bootstrap/bootstrap.min.js"></script>
+  <script src="public/javascripts/two-dots.js"></script>
+
+</html>
