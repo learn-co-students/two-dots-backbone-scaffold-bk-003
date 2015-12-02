@@ -28,3 +28,5 @@ Open `example.html` in your browser and inspect the elements while reading along
 
 * Make it possible for players to backtrack their steps or "undo" their previous play. 
 * When a user makes a square, or any shape that connects back on itself, delete all dots of the color of the shape. For instance, red square deletes all the red from the board and no red dots exist after making it for the next "round".
+
+<a href='https://learn.co/lessons/two-dots-backbone-scaffold' data-visibility='hidden'>View this lesson on Learn.co</a>
